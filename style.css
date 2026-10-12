@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin: 0 0 24px 0;
+}
+
+.form-container {
+    width: 450px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 28px;
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    background-color: azure;
+    box-shadow: 0 4px 12px gray;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.group-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.form-group > label {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+}
+
+.radio-option label {
+    margin-left: 6px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    margin-left: 8px;
+}
+
+input:focus,
+select:focus {
+    border-color: blueviolet;
+    outline: 2px solid violet;
+}
+
+button {
+    width: 150px;
+    margin: 0 auto;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
